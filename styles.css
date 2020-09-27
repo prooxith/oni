@@ -1,0 +1,177 @@
+body{
+    background-image: linear-gradient(to right, #000B18, #00172D 2%, #000B18)
+}
+html{
+    scroll-behavior: smooth;
+}
+ol{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    
+  }
+  
+ ol li {
+    float: right;
+    margin-top: none;
+    margin: 10px 5px;
+    
+    
+  }
+  
+  li a {
+      font-family: 'Righteous';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2.5vw 3.5vw;
+    font-size: 2vw;
+    text-decoration: none;
+    border: white solid 0.4vw;
+    border-radius: 6vw;
+    transition: 0.5s;
+    
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: green;
+    
+  }
+#welc{
+    text-align: center;
+    font-size: 5.4vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Alfa Slab One';
+    color: white;
+    margin-bottom: none;
+}
+
+.img{
+    width: 24vw; 
+    height: 24vw;
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.img:hover{
+    opacity: 0.8;
+}
+#create{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 4vw;
+    color: white;
+    font-family: 'Archivo Black';
+    margin-bottom: none;
+    border: white double 5px;
+}
+
+#exp{
+    margin-top: 0;
+    text-align: center;
+    color: wheat;
+    font-size: 6vw;
+    font-style: 'Amaranth';
+}
+#games{
+    float: left;
+    font-size: 6vw;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Amaranth';
+}
+#no{
+    margin-top: 0;
+    float: right;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Amaranth';
+    margin-bottom: 10px;
+}
+
+#sites{
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+    font-size: 6vw;
+    color: white;
+    font-family: 'Amaranth';
+}
+#ins{
+    font-size: 30vw;
+    float: left;
+}
+#bout{
+
+    text-align: center;
+    margin-top: 60vw;
+    font-size: 4vw;
+    color: white;
+    font-family: 'Archivo Black';
+    border: white double 5px;
+}
+#fac{
+    font-size: 30vw;
+    float: right;
+}
+#ins:hover{
+    opacity: 0.5;
+}
+#fac:hover{
+    opacity: 0.5;
+}
+#link{
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 20vw;
+    font-size: 4vw;
+    color: white;
+    font-family: 'Archivo Black';
+    border: white double 5px;
+}
+#me{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Archivo Black';
+    font-size: 5vw;
+}
+@media screen and (max-width: 600px) {
+    #creations{
+      margin-top: 110px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #welc, #exp{
+      font-size: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #bout{
+      margin-top: 78vw;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 1.4vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+    background-color: white;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, blue, purple);
+    border-radius: 80px;
+  }
+  
